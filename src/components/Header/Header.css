@@ -1,0 +1,29 @@
+@media(max-width:576px){
+.welcome-container ,.down-navbar{
+  display: none;
+}
+.welcome{
+   display: none;
+}
+.logo-mobile{
+ height:60px;
+}
+.fortune-creation{
+    display: none;
+    
+}
+
+
+}
+@media(min-width:576px){
+    .logo-mobile,.mobile-end-container{
+        display: none;
+    }
+    .fortune-creation{
+        display: flex;
+        
+    }
+    .mobile-header ,.mobile-navbar{
+        display: none;
+    }
+}

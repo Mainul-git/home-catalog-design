@@ -1,0 +1,29 @@
+@media(min-width:576px){
+.last-portion-card,.last-portion-button,.last-portion-image{
+    display:none;
+}
+.card:hover .last-portion-card{
+    display:block;
+}
+.card:hover .last-portion-button{
+    display:block;
+}
+.card:hover .last-portion-image{
+    display:block;
+}
+}
+
+@media(max-width:576px){
+    .last-portion-card,.last-portion-button,.last-portion-image{
+        display:none;
+    }
+    .card:hover .last-portion-card{
+        display:block;
+    }
+    .card:hover .last-portion-button{
+        display:block;
+    }
+    .card:hover .last-portion-image{
+        display:block;
+    }
+    }

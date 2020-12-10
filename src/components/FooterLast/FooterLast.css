@@ -1,0 +1,15 @@
+.footerLast{
+    background-color: #6E716E;
+}
+@media(min-width:576px){
+    .footerLast-text small{
+        margin:400px;
+    }
+}
+
+
+@media(max-width:576px){
+    .footerLast-text{
+        margin-left: 20px;
+    }
+}
